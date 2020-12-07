@@ -1,5 +1,4 @@
-ello subscriber!
-
+Hello subscriber!
 A new blog was posted
 
 Title: {{blog.title}}

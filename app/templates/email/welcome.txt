@@ -1,2 +1,2 @@
 Hello {{user.username}}, Welcome to Blog-Post.
-You have joined a great blogging platform where you would be able to recieve blogs updades regularly
+You have joined a great blogging platform where you would be able to recieve blog's updades regularly

@@ -7,6 +7,19 @@ from datetime import datetime
 def load_user(user_id):
     return User.query.get(user_id)
 
+
+
+class Quote:
+    '''
+    Quote class to define quote Objects
+    '''
+
+    def __init__(self,id,author,quote):
+        self.id =id
+        self.author = author
+        self.quote = quote
+        
+
 class User (UserMixin,db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer,primary_key = True)

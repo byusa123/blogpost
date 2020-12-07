@@ -1,0 +1,10 @@
+ello subscriber!
+
+A new blog was posted
+
+Title: {{blog.title}}
+Post: {{blog.content|truncate(30)}}
+
+Regards,
+
+The-Bloger 

@@ -16,7 +16,7 @@ bootstap = Bootstrap()
 
 
 
-photos = UploadSet('photos',IMAGES)
+photos = UploadSet('photos',IMAGES, default_dest=lambda x: 'SecretKey')
 mail = Mail()
 
 

@@ -10,6 +10,7 @@ class Config:
     MAIL_USE_SSL = False
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
+    UPLOADED_PHOTOS_DEST ='app/static/photos'
  
     # DEBUG = True
 
@@ -18,14 +19,13 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:gizo@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:12345@localhost/byusa'
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:gizo@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:12345@localhost/byusa'
     DEBUG = True
 
 config_options = {
 'development':DevConfig,
-
-
+'production': ProdConfig
 }

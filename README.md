@@ -35,5 +35,5 @@ As a writer, I would like to update or delete blogs I have created.
 If you have any question or contributions, please email me at [byusagisele@gmail.com]
 
 
-* Copyright (c) 2020 
-                BYUSA UWASE GISELLE
+* Copyright (c) 2020  BYUSA UWASE GISELLE
+                
